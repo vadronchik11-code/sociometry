@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Социометрия</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%2333105f%22/%3E%3Ccircle cx=%2210%22 cy=%2212%22 r=%224%22 fill=%22%23fff%22/%3E%3Ccircle cx=%2222%22 cy=%2210%22 r=%223%22 fill=%22%23c9b6ff%22/%3E%3Ccircle cx=%2218%22 cy=%2222%22 r=%225%22 fill=%22%23fff%22/%3E%3Cpath d=%22M10 12L22 10M10 12L18 22M22 10L18 22%22 stroke=%22%23c9b6ff%22 stroke-width=%221.5%22/%3E%3C/svg%3E">
+</head>
+<body>
+<div id="loadbar"></div>
+<div class="top"><div class="wrap">
+  <a class="brand" href="#/">Социометрия</a>
+  <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">☰</button>
+  <nav class="menu" id="menu"></nav>
+  <div class="user" id="user"></div>
+</div></div>
+<div id="app"></div>
+<footer><div class="wrap">Групповые отчёты видны всем, личные отчёты только их авторам. Исходные ответы видит только аналитик.</div></footer>
+<script src="/static/common.js"></script>
+<script src="/static/public.js"></script>
+<script src="/static/survey.js"></script>
+<script src="/static/staff.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

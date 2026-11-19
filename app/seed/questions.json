@@ -1,0 +1,20 @@
+[
+  {"id": 1, "kind": "permanent", "criterion": "leisure", "polarity": "+", "pair_with": 2, "anonymous": true,
+   "text": "Кого из списка ниже Вы пригласили бы на свой день рождения или другой праздник (вечеринку)?"},
+  {"id": 2, "kind": "permanent", "criterion": "leisure", "polarity": "-", "pair_with": 1, "anonymous": true,
+   "text": "Кого из следующих людей Вы бы НЕ стали звать на свой день рождения или другой праздник (вечеринку)?"},
+  {"id": 3, "kind": "permanent", "criterion": "organizing", "polarity": "+", "pair_with": 4, "anonymous": true,
+   "text": "Кто из перечисленных людей, на Ваш взгляд, способен справиться с руководящей ролью в проекте/мероприятии?"},
+  {"id": 4, "kind": "permanent", "criterion": "organizing", "polarity": "-", "pair_with": 3, "anonymous": true,
+   "text": "Кто из перечисленных людей, на Ваш взгляд, скорее НЕ справится с ролью руководителя проекта/мероприятия?"},
+  {"id": 5, "kind": "permanent", "criterion": "teamwork", "polarity": "+", "pair_with": 6, "anonymous": true,
+   "text": "С кем из группы Вам бы хотелось работать в рамках одного проекта/мероприятия?"},
+  {"id": 6, "kind": "permanent", "criterion": "teamwork", "polarity": "-", "pair_with": 5, "anonymous": true,
+   "text": "С кем из группы Вам бы НЕ хотелось работать над одним проектом/мероприятием?"},
+  {"id": 7, "kind": "permanent", "criterion": "trust", "polarity": "+", "pair_with": 8, "anonymous": true,
+   "text": "К кому из перечисленных людей Вы бы обратились за советом в трудной жизненной ситуации?"},
+  {"id": 8, "kind": "permanent", "criterion": "trust", "polarity": "-", "pair_with": 7, "anonymous": true,
+   "text": "С кем из перечисленных людей Вам бы НЕ хотелось ни о чём советоваться?"},
+  {"id": 9, "kind": "permanent", "criterion": "referent", "polarity": null, "pair_with": null, "anonymous": true,
+   "text": "Если бы существовала возможность увидеть индивидуальные ответы любых людей из списка, то чьи ответы Вам было бы интересно посмотреть?"}
+]
